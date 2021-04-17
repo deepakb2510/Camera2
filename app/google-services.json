@@ -8,36 +8,7 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:622367726802:android:28fc03e9e4bb5f0b5aa10b",
-        "android_client_info": {
-          "package_name": "com.example.camera"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "622367726802-f4akgno1ov8pjof1qrjvifpo89pu0kek.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCRT9S6AMPEyz5HlqGxnMpk9RkEsf1uOlg"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "622367726802-f4akgno1ov8pjof1qrjvifpo89pu0kek.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:622367726802:android:eeae2d3d44bbbf615aa10b",
+        "mobilesdk_app_id": "1:622367726802:android:6e9850c0e1f7d0605aa10b",
         "android_client_info": {
           "package_name": "com.example.camera2"
         }
