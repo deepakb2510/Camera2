@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "622367726802",
+    "firebase_url": "https://doorbell-92cb3-default-rtdb.firebaseio.com",
+    "project_id": "doorbell-92cb3",
+    "storage_bucket": "doorbell-92cb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622367726802:android:28fc03e9e4bb5f0b5aa10b",
+        "android_client_info": {
+          "package_name": "com.example.camera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622367726802-f4akgno1ov8pjof1qrjvifpo89pu0kek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRT9S6AMPEyz5HlqGxnMpk9RkEsf1uOlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622367726802-f4akgno1ov8pjof1qrjvifpo89pu0kek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622367726802:android:eeae2d3d44bbbf615aa10b",
+        "android_client_info": {
+          "package_name": "com.example.camera2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622367726802-f4akgno1ov8pjof1qrjvifpo89pu0kek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRT9S6AMPEyz5HlqGxnMpk9RkEsf1uOlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622367726802-f4akgno1ov8pjof1qrjvifpo89pu0kek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622367726802:android:40e2354dbc06bea75aa10b",
+        "android_client_info": {
+          "package_name": "com.example.firstapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622367726802-f4akgno1ov8pjof1qrjvifpo89pu0kek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRT9S6AMPEyz5HlqGxnMpk9RkEsf1uOlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622367726802-f4akgno1ov8pjof1qrjvifpo89pu0kek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622367726802:android:9e2ff2ec06866f155aa10b",
+        "android_client_info": {
+          "package_name": "net.smallacademy.cameraandgallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622367726802-f4akgno1ov8pjof1qrjvifpo89pu0kek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRT9S6AMPEyz5HlqGxnMpk9RkEsf1uOlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622367726802-f4akgno1ov8pjof1qrjvifpo89pu0kek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
