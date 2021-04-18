@@ -77,24 +77,25 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
         SensorManager sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         final Sensor proximitySensor = sensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
 
-        sv = (SurfaceView) findViewById(R.id.sur);
-        sv.postDelayed(() -> {
-            int index = getFrontCameraId();
-            Log.d("AAA", "onCreate: " + index);
-            if (index == -1) {
-                Toast.makeText(getApplicationContext(), "No front camera", Toast.LENGTH_LONG).show();
-            } else {
 
-                sHolder = sv.getHolder();
-                sHolder.addCallback(MainActivity.this);
-                sHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
-            }
-        }, 1000);
+
         SensorEventListener sensorEventListener = new SensorEventListener() {
             @Override
             public void onSensorChanged(SensorEvent event) {
                 if (event.values[0] < proximitySensor.getMaximumRange()) {
-                    getWindow().getDecorView().setBackgroundColor(Color.RED);
+                    sv = (SurfaceView) findViewById(R.id.sur);
+                    sv.postDelayed(() -> {
+                        int index = getFrontCameraId();
+                        Log.d("AAA", "onCreate: " + index);
+                        if (index == -1) {
+                            Toast.makeText(getApplicationContext(), "No front camera", Toast.LENGTH_LONG).show();
+                        } else {
+
+                            sHolder = sv.getHolder();
+                            sHolder.addCallback(MainActivity.this);
+                            sHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
+                        }
+                    }, 1000);
                     /*Calendar cal = Calendar.getInstance();
 
                     Intent service = new Intent(getBaseContext(), CapPhoto.class);
@@ -158,7 +159,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
             Toast.makeText(this, "Rotating", Toast.LENGTH_SHORT).show();
             Matrix matrix = new Matrix();
             if (photo.getWidth() > photo.getHeight())
-                matrix.postRotate(90);
+                matrix.postRotate(270);
             photo = Bitmap.createBitmap(photo, 0, 0, photo.getWidth(), photo.getHeight(), matrix, true);
 
         }
