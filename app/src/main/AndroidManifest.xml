@@ -6,12 +6,11 @@
         android:name="android.hardware.sensor.proximity"
         android:required="true" />
 
-    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
-    <uses-feature android:name="android.hardware.camera" />
-    <uses-feature android:name="android.hardware.camera2"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.Camera" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
         android:allowBackup="true"
@@ -31,9 +30,9 @@
         </activity>
 
         <service
-            android:name=".CapPhoto"
+            android:name=".PhotoClickerService"
             android:enabled="true"
-            android:exported="true" />
+            android:exported="false"/>
     </application>
 
 </manifest>
